@@ -1,0 +1,61 @@
+/* Heading formatting */
+h1 {
+    font-size: 2em; /* Set font size for h1 */
+    color: #333; /* Example color */
+}
+
+h2 {
+    font-size: 1.5em; /* Set font size for h2 */
+    color: #1100ffa1; /* Example color */
+}
+
+h3 {
+    font-size: 1.2em; /* Set font size for h3 */
+    color: #1100ffa1; /* Example color */
+}
+
+/* Set font size for the body */
+body {
+    font-size: 16px; /* Example font size */
+    font-family: Arial, sans-serif; /* Example font family */
+    color: #444; /* Example color */
+}
+
+/* Style navigation links */
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #0066cc; /* Example link color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style main content */
+main {
+    margin: 20px; /* Example margin */
+    padding: 20px; /* Example padding */
+    border: 1px solid #ccc; /* Example border */
+}
+
+/* Style form inputs */
+form input[type="text"],
+form textarea {
+    width: 100%; /* Make inputs full width */
+    padding: 10px; /* Example padding */
+    margin-bottom: 10px; /* Example margin */
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px 20px; /* Example padding */
+    background-color: #0066cc; /* Example button color */
+    color: #fff; /* Example button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #0056b3; /* Example button color on hover */
+}
